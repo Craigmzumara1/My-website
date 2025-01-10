@@ -1,0 +1,173 @@
+
+body{
+    background-color: black;
+    background-size: 100% 100%;
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: black;
+    color: yellow;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    padding:0px;
+    margin-bottom: 0;
+    position: sticky;
+    top: 0px;
+}
+
+.title-header {
+        display: flex;
+        padding:20px;
+        font-size: 40px;
+        cursor:default;
+}
+.title-header a{
+    text-decoration: none;
+    color: yellow;
+}
+
+header nav{
+    margin-right: 10px;
+    padding: 0;
+}
+header nav ul {
+    list-style: none;
+
+}
+header nav li{
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+}
+header nav li:hover {
+    transition: ease-in-out;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+header nav a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+main {
+    background-color: black;
+    margin-top: 0;
+    padding: 5px;;
+}
+ .cover{
+    background-image: url(domasi\ mountain.jpg);
+    color: white;
+    background-size: 100% 100%;
+    height: 500px;
+    background-position:center;
+    padding: 50px;
+}
+h1{
+    font-size: 50px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+main section ul{
+    display: inline-block;
+    padding: 2px;
+}
+main section li{
+    color: white;
+    text-align: center;
+    display: flex;
+    float: left;
+    padding: 5px;
+}
+main section li img{
+    padding: 10px;
+    width: 300px;
+    height: 300px;
+
+}
+main section li a{
+    text-decoration: none;
+    color: yellow;
+}
+main section li h2{
+    color: white;
+}
+footer{
+    background-color: black;
+    color: white;
+    margin-top: 50px;
+    padding: 20px;
+    text-align: center;
+    cursor: default;
+}
+.footer-text:hover{
+    transform: scale(1.1);
+}
+.about-cover{
+    background-image: url(Palm-tree.jpg);
+    background-size: 100% 100%;
+    height: 1000px;
+    width: 1000px;
+    display: block;
+    justify-content: center;
+    align-content: center;
+    padding: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.about-body{
+    background-color: black;
+}
+.contact-body{
+    background-color: black;
+}
+.contact-cover{
+    background-image: url(Palm-tree.jpg);
+    background-size: 100% 100%;
+    height: 1000px;
+    width: 1000px;
+    display: block;
+    justify-content: center;
+    align-content: center;
+    padding: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.services-ul{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    padding: 10px;
+    margin-left: 0px;
+
+}
+.services-ul li{
+    color: yellow;
+    font-size: 40px;
+    font: bolder;
+    justify-content: center;
+}
+.services-cover{
+    background-image: url(Palm-tree.jpg);
+    background-size: 100% 100%;
+    height: 1000px;
+    width: 1000px;
+    display: block;
+    justify-content: center;
+    align-content: center;
+    padding: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.services-div{
+    background-size: 80% 80%;
+    padding: 150px;
+    justify-content: center;
+
+}
+.services-heading{
+    font-size: 50px;
+}
